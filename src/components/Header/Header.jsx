@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import linkedinLogo from "../../assets/logo-linkedin.svg";
+import instagramLogo from "../../assets/logo-instagram.svg.svg";
 import githubLogo from "../../assets/logo-github.svg";
 import telegramLogo from "../../assets/logo-telegram.svg";
 
@@ -12,14 +12,14 @@ const Header = () => {
           <li>
             <a
               className={styles.link}
-              href="https://linkedin.com"
+              href="https://www.instagram.com/okisabela_/"
               target="blank"
             >
-              <img src={linkedinLogo} alt="Logo Linkedin" />
+              <img src={instagramLogo} alt="Logo Instagram" />
             </a>
           </li>
           <li>
-            <a className={styles.link} href="https://github.com" target="blank">
+            <a className={styles.link} href="https://github.com/isabela-pr" target="blank">
               <img src={githubLogo} alt="Logo GitHub" />
             </a>
           </li>
